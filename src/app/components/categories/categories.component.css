@@ -1,0 +1,33 @@
+.card-top{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background: rgb(211, 237, 37);
+    background-clip: border-box;
+    border: 1px solid;
+    border-radius: .25rem;
+    /* margin-top: 20px; */
+    margin-bottom: 1px;
+}
+
+.item img{
+    width: 64px;
+    height: 64px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+    align-items: center;
+}
+.item h5{
+    text-align: center;
+    cursor: pointer;
+    color: black;
+}
+
+.item a:hover{
+    color: blue;
+}
+
