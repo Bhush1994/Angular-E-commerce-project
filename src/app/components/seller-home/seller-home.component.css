@@ -1,6 +1,11 @@
+h1{
+    color: blue;
+    margin-top: 30px;
+}
+
 table{
     text-align: left;
-    color: blueviolet;
+    color: blue;
     border-collapse: collapse;
 }
 img{
@@ -8,12 +13,20 @@ img{
     width: 100px;
 }
 table td , table th{
-    border: 1px solid blueviolet;
+    border: 1.5px solid blue;
     padding: 10px;
     min-width: 160pxs;
 }
 .adjust-update-link{
     margin-left: 10px;
     text-decoration: none;
-    color: black;
+    color: white;
+}
+
+.product-list{
+    margin-bottom: 20px;
+}
+
+button{
+   margin-bottom: 2px;
 }

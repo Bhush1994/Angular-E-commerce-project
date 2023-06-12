@@ -124,35 +124,38 @@
       "description": "its best smartphone.",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlrlk3sT4WGyviFan21OvIN8iTIqCn9oPzJmSY4sju6qVasow4CCVl_La123cwSqa0Bjs&usqp=CAU",
       "id": 16
+    },
+    {
+      "name": "Mens shirt",
+      "price": "700",
+      "category": "shirts",
+      "color": "Green",
+      "description": "Candy color mens casual long sleeve shirt",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBrPROb667cJ6rL1k916p-ZRWdRLkflpyEa_VH30-pLaollMhTUd9OZIM8CJkhkdbqLe0&usqp=CAU",
+      "id": 17
     }
   ],
   "users": [
-    {
-      "name": "Sagar",
-      "email": "sagar@gmail.com",
-      "password": "Sagar123",
-      "id": 1
-    },
     {
       "name": "Naitik",
       "email": "naitik@gmail.com",
       "password": "Naitik123",
       "id": 2
+    },
+    {
+      "name": "Chetan",
+      "email": "chetan@gmail.com",
+      "password": "Chetan123",
+      "id": 3
+    },
+    {
+      "name": "Nikhil",
+      "email": "nikhil@gmail.com",
+      "password": "Nkhil123",
+      "id": 4
     }
   ],
   "cart": [
-    {
-      "name": "Vivo V27",
-      "price": "25000",
-      "category": "Mobile",
-      "color": "Blue",
-      "description": "6 GB RAM | 128 GB ROM\n16.21 cm (6.38 inch) Full HD+ Display\n64MP + 2MP | 16MP Front Camera\n4500 mAh Battery\nSnapdragon 695 Processor",
-      "image": "https://akm-img-a-in.tosshub.com/indiatoday/styles/medium_crop_simple/public/2023-03/1_2.jpg?VersionId=ww4Cv4Sv9RpGYujVDsDVxCC_NHfxHha8",
-      "quantity": 2,
-      "productId": 6,
-      "userId": 1,
-      "id": 1
-    },
     {
       "name": "Vivo V27",
       "price": "25000",
@@ -176,19 +179,24 @@
       "productId": 7,
       "userId": 2,
       "id": 3
-    },
-    {
-      "name": "Dell laptop",
-      "price": "100000",
-      "category": "Laptop",
-      "color": "black",
-      "description": "Display: 14-inch screen with (1920X1080) Full HD Display | Anti Glare technology | 720p HD Camera with Thinkshutter | Connectivity: Intel AX201 11ax, 2x2 + BT5.0 | Audio: Skype-certified mics and 2x 2W Harman speakers with Dolby Advanced Audio | Dual array microphone",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcST2QcaEhJMoaom3ZZCX9aHMUGnBvMKqhyDBQ&usqp=CAU",
-      "quantity": 1,
-      "productId": 5,
-      "userId": 2,
-      "id": 4
     }
   ],
-  "orders": []
+  "orders": [
+    {
+      "email": "sagar@gmail.com",
+      "address": "Nashik",
+      "contact": "7350671747",
+      "totalPrice": 25100,
+      "userId": 3,
+      "id": 1
+    },
+    {
+      "email": "",
+      "address": "",
+      "contact": "",
+      "totalPrice": 76098,
+      "userId": 3,
+      "id": 2
+    }
+  ]
 }

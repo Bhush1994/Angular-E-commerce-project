@@ -6,7 +6,7 @@
         <div class="col-sm-8 details">
             <ul *ngFor="let cart of cartData">
                 <li>
-                    <img src="{{cart.image}}" alt="">
+                    <img src="{{cart.image}}" alt="">   
                 </li>
                 <li>
                     <span> {{cart.name}}</span>
@@ -18,7 +18,7 @@
                     <span> Quantity : {{cart.quantity}}</span>
                 </li>
                 <li>
-                    <button class="form-button" (click)="removeToCart(cart.id)">Remove To Cart</button>
+                    <button class="btn btn-primary" (click)="removeToCart(cart.id)">Remove To Cart</button>
                 </li>
             </ul>
 
@@ -36,7 +36,7 @@
                     </span> <span>
                         <h4>{{priceSummary.total}}</h4>
                     </span></li>
-                <button (click)="checkout()" class="form-button max-width">Checkout</button>
+                <button (click)="checkout()" class="btn btn-primary max-width">Checkout</button>
             </ul>
         </div>
     </div>

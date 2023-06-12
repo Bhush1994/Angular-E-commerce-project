@@ -9,9 +9,9 @@ import { SellerUpdateProductComponent } from './components/seller-update-product
 import { UserComponent } from './components/user/user.component';
 import { MyOrdersComponent } from './components/my-orders/my-orders.component';
 import { CheckoutComponent } from './components/checkout/checkout.component';
-import { CartComponent } from './components/cart/cart.component';
 import { ProductDetailsComponent } from './components/product-details/product-details.component';
 import { SearchComponent } from './components/search/search.component';
+import { CartComponent } from './components/cart/cart.component';
 
 
 
@@ -34,7 +34,6 @@ const routes: Routes = [
   },{
     component:SellerUpdateProductComponent,
     path:'seller-update-product/:id',
-    
   },
   {
     component: SearchComponent,
@@ -45,10 +44,13 @@ const routes: Routes = [
   },{
     component:UserComponent,
     path:'user'
-  },{
-    component:CartComponent,
-    path:'cart'
-  },{
+  },
+
+  {
+    component: CartComponent,
+    path:'cart-page'
+  },
+    {
     component:CheckoutComponent,
     path:'checkout'
   },{

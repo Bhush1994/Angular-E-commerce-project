@@ -6,6 +6,7 @@
 .cart-page h1{
     text-align: center;
     color: blue;
+    background-color:bisque;
 }
 .cart-page h3{
     color: blue;
@@ -38,3 +39,4 @@
     display: flex;
     justify-content: space-between;
 }
+

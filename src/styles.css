@@ -10,6 +10,10 @@ body {
   flex-direction: column;
   width: 300px;
   margin: auto;
+  border:solid 1px;
+  border-radius:30px;
+  padding:50px;
+  background-color: rgb(40,116,240);
 }
 .form-input {
   height: 35px;
@@ -17,12 +21,14 @@ body {
   border: 1px solid blueviolet;
   padding-left: 15px;
   color: blueviolet;
+  border-radius:10px
 }
 .form-button {
   height: 35px;
   border: 1px solid blueviolet;
   color: blueviolet;
   cursor: pointer;
+  border-radius:10px;
 }
 .error-p{
   color: red;

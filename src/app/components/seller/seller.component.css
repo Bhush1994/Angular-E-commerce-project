@@ -3,12 +3,16 @@
 }
 .sign-up h1, .login h1{
     margin-top: 50px;
-    margin-bottom: 80px;
-    color: blueviolet;   
+    margin-bottom: 30px;
+    color: rgb(40,116,240);  
 }
 .auth-toggle-link{
     color: blueviolet;
     font-size: 14px;
     margin-top: 20px;
     text-align: left;
+}
+
+.seller-auth{
+    margin-bottom: 40px;
 }

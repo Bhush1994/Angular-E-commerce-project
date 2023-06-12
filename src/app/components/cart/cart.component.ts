@@ -1,6 +1,6 @@
 import { Component,OnInit } from '@angular/core';
 import { Router } from '@angular/router';
-import { cart, priceSummary } from 'src/app/data-type';
+import { cart,priceSummary } from 'src/app/data-type';
 import { ProductService } from 'src/app/services/product.service';
 
 @Component({
@@ -17,7 +17,7 @@ export class CartComponent implements OnInit {
     delivery: 0,
     total: 0
   }
-  constructor(private product: ProductService, private router: Router) { }
+  constructor(private product: ProductService, private router: Router) { }   
 
   ngOnInit(): void {
    this.loadDetails()

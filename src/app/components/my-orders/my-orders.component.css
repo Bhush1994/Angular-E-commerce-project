@@ -5,6 +5,7 @@
     margin-top: 50px;
     margin-bottom: 50px;
     text-align: center;
+    color: blue;
 }
 .my-orders .order-img{
     width: 100px;
@@ -14,6 +15,9 @@
     margin-top: 15px;
     margin-bottom: 15px;
     padding-bottom: 10px;
-    border-bottom:1px solid #ddd;
+    border-bottom:1px solid white;
+}
 
+span{
+    color: blue;
 }

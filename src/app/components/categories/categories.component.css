@@ -4,9 +4,9 @@
     flex-direction: column;
     min-width: 0;
     word-wrap: break-word;
-    background: rgb(211, 237, 37);
+    background: white;
     background-clip: border-box;
-    border: 1px solid;
+    border: 0.1px solid;
     border-radius: .25rem;
     /* margin-top: 20px; */
     margin-bottom: 1px;
@@ -24,7 +24,7 @@
 .item h5{
     text-align: center;
     cursor: pointer;
-    color: black;
+    color: blue;
 }
 
 .item a:hover{
